@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
+// https://www.cnblogs.com/crazymakercircle/p/15187184.html#autoid-h3-3-0-2
 public class CounterLimit {
 
     private static final Logger log = Logger.getLogger(CounterLimit.class.getName());
