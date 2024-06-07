@@ -15,11 +15,11 @@ public class CounterLimit {
     // 起始时间
     private static long startTime = System.currentTimeMillis();
     // 时间区间的时间间隔 ms
-    private static long interval = 1000;
+    private static final long interval = 1000;
     // 每秒限制数量
-    private static long maxCount = 2;
+    private static final long maxCount = 2;
     // 累加器
-    private static AtomicLong accumulator = new AtomicLong();
+    private static final AtomicLong accumulator = new AtomicLong();
 
     // 计数判断, 是否超出限制
     private static long tryAcquire(long taskId, int turn) {
